@@ -1,6 +1,6 @@
 # LOGOS BY NKULULEKO TSHAKA
 
-#### Video Demo: [CS50P Final Project: The 7imely Shopper](https://youtu.be/MZZlzc26h8I)
+#### Video Demo:
 ### Description
 
 ### The
