@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Logo Search
+{% endblock %}
+
+{% block main %}
+    <h2>Search for a Logo</h2>
+        <form method="POST">
+            <input autocomplete="off" autofocus type="text" name="logo_name" placeholder="Enter brand name">
+            <button type="submit">Search</button>
+        </form>
+{% endblock %}

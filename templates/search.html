@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search Results
+{% endblock %}
+
+{% block main %}
+    {% if result[3] %}
+        <img src="{{ url_for('static', filename=result[3] )}}" alt="{{ result[0]}}" width="200">
+    {% else %}
+        <p>No Image</p>
+    {% endif %}
+    {% if result %}
+        <h2>{{ result[1] }}</h2>
+        <p>{{ result[2] }}</p>
+    {% else %}
+    <p>No results found for "{{ logo_name }}".</p>
+    {% endif %}
+    <a class="btn-primary-outline" href="{{ url_for('index') }}">Search again</a>
+{% endblock %}

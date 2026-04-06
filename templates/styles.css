@@ -1,0 +1,279 @@
+.horizontal-logo {
+
+    padding: 0;
+    margin-left: 10px ;
+    width:160px;
+    alignment: left;
+
+}
+
+.main-title
+{
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22pt;
+    font-weight: 800;
+    line-height: 19pt;
+    text-align: left;
+    width: 50%;
+    display: flex;
+    color: #F5EBC6;
+
+}
+
+.main-body
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 9.5pt;
+    min-width: 60%;
+    max-height: 80%;
+    line-height: 12pt;
+    color: #F5EBC6;
+    font-weight: 300;
+}
+
+.horizontal-logo:hover {
+    filter: blur(0.7px);
+}
+
+
+
+.horizontal-card
+{
+    object-fit: contain;
+    max-height: 300px;
+    min-height: 200px;
+    background-color: red;
+    text-align: right;
+}
+
+.nav-end
+{
+    margin-right: 10px;
+    justify-content: right;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body
+{
+    margin-top:0;
+    background-color:#0B0A0C;
+    padding-top: 60px;
+}
+
+
+
+.text-area
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22pt;
+    font-weight: 800;
+    line-height: 19pt;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    color: #F5EBC6;
+}
+
+.btn:hover{
+    filter: blur(0.7px);
+}
+
+.navbar
+{
+    width: 100%;
+    padding-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(12px);
+}
+
+header {
+    top: 0;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    z-index: 9999;
+}
+
+.image-container
+{
+    border-radius: 20px 20px 0 0px;
+    min-height: 10rem;
+    height: 10rem;
+    max-width: 20rem;
+    background-color: transparent;
+    object-fit: cover;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+    .hero-content {
+        color: pink;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 11400px;
+    }
+}
+
+
+.hcard-body
+{
+    padding: 0;
+    margin-left: 30px;
+    max-height: 200px;
+    width: 90%;
+}
+.card-body
+{
+    padding: 10px;
+    margin-left: 0px;
+    width: 90%;
+}
+.hcard
+{
+    background-color: #1e1b1a;
+    margin-right: 20px !important;
+}
+.card
+{
+    background-color: #1e1b1a;
+    border-radius: 30px !important;
+    margin-right: 20px !important;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+}
+
+.page-div
+{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.hero-content
+{
+    color: #FF1F28;
+    margin-top: 150px;
+    padding: 10%;
+}
+
+.hero-content:hover
+{
+    filter: blur(0.5px);
+    color: #FF1F28;
+}
+
+.hero {
+    padding: 0;
+    width: 50%;
+    border: none;
+    color: #F5EBC6;
+}
+
+.hero-2 {
+    padding: 0;
+    height: 800px;
+    width: 60%;
+    background-image: url('assets/Layers.png');
+    object-fit: cover;
+}
+
+.hero h1{
+    margin-top: 0;
+    width: 80%;
+    font-size: 57px;
+    font-family: "Climate Crisis", sans-serif;
+    font-style: bold;
+    line-height: 50px;
+}
+
+.hero h3{
+    margin-top: 30px;
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 11pt;
+    font-size: 11pt;
+    display: block;
+}
+
+.hero-container {
+    padding-top: 0;
+    display: flex;
+
+}
+
+
+.climate-crisis{
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+}
+
+
+.eb-garamond{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+#rectangle
+{
+    border-radius: 10px;
+    width: auto;
+    height: 20px;
+    border: 2px blue;
+    background-color: red;
+}
+
+.secondary-title
+{
+    color: #0335fb;
+    font-size
+    font-family: "EB-Garamond", serif;
+    font-size: 12pt;
+}
+
+.montserrat
+{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
